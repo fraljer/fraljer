@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dcceac;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar {
+    width: 800px;
+    height: 40px;
+    background: #444;
+    border-radius: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: none;
+    position: relative;
+}
+.topbar::before {
+    content: "fråljer";
+    color: white;
+    font-family: "Bytesized", monospace;
+    font-size: 24px;
+    display: block;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.topbar-button {
+    padding: 8px 16px;
+    font-family: "Bytesized", monospace;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.topbar-button:hover {
+    background-color: #555;
+}
+
+.topbar-button.left {
+    margin-right: auto;
+}
+
+.topbar-button.right {
+    margin-left: auto;
+}
+
+.mainbox {
+    width: 800px;
+    height: 500px;
+    background: #eee7ca;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-style: solid;
+    border-color: grey;
+
+    text-align: center;
+    align-items: center;
+    font-family: "Tiny5";
+}
+
+a:hover {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+    color: lightseagreen;
+}
