@@ -1,5 +1,5 @@
 - 🔭 I’m currently working on games!
 - 🌱 I’m currently learning C#
 - 📫 How to reach me: osu!
-- 😄 Pronouns: He / Him
+- 😄 Pronouns: They / Them, or He / Him
 - ⚡ Fun fact: I am not dead.
